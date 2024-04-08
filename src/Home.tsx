@@ -11,19 +11,16 @@ function ScrollAboutMe() {
 export default function App() {
 
   return (
-    <div className="w-screen animated-background h-full bg-gradient-to-b from-green-200 via-green-200 to-blue-200">
+    <div className="w-full animated-background h-full bg-gradient-to-b from-green-200 via-green-200 to-blue-200">
       <Navigation />
-      <section className="flex flex-col pt-10 w-full">
+      <section id="home" className="flex flex-col pt-10 w-full">
         <div className="flex items-center justify-center p-20">
           <div className="space-y-4">
             <h1 className="text-4xl font-bold">Hello there,</h1>
-            <h2 className="text-5xl">My name is 
-              <span className="text-teal-500 font-bold pl-4">
-                Senne Cumptich
-              </span>
+            <h2 className="text-5xl">My name is <span className="text-teal-600 font-bold ">Senne Cumptich</span>
             </h2>
-            <h3 className="text-2xl">I'm a 
-              <span className="text-teal-500 font-bold pl-4">
+            <h3 className="text-2xl">A 
+              <span className="text-teal-600 font-bold pl-2">
                 <TypeAnimation
                   sequence={[
                     "web developer in the making", 1500,
@@ -47,6 +44,20 @@ export default function App() {
         <div className="flex items-center justify-center p-20">
           <div className="space-y-4">
             <h1 className="text-4xl font-bold">About me</h1>
+          </div>
+        </div>
+      </section>
+      <section id="project" className="flex flex-col pt-10 w-full">
+        <div className="flex items-center justify-center p-20">
+          <div className="space-y-4">
+            <h1 className="text-4xl font-bold">Projects</h1>
+          </div>
+        </div>
+      </section>
+      <section id="contact" className="flex flex-col pt-10 w-full">
+        <div className="flex items-center justify-center p-20">
+          <div className="space-y-4">
+            <h1 className="text-4xl font-bold">Contact</h1>
           </div>
         </div>
       </section>
