@@ -3,8 +3,8 @@ import NavigationItem from "./NavigationItem";
 
 const Navigation = () => {
     return (
-        <nav className="sticky top-0 z-50">
-        <div className="relative flex flex-row items-center justify-between p-4">
+        <nav className="sticky top-0 z-50 bg-opacity-10 backdrop-blur-md">
+        <div className="relative flex flex-row items-center justify-between p-2">
           <div>
             <h1 className="text-4xl font-shrikhand font-extrabold p-2">SC</h1>
           </div>

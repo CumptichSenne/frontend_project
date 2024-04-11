@@ -3,18 +3,15 @@ import Navigation from "./components/Navigation";
 
 import { TypeAnimation } from "react-type-animation";
 
-function ScrollAboutMe() {
-  const aboutMe = document.getElementById("about-me");
-  aboutMe?.scrollIntoView({ behavior: "smooth" });
-}
+import profile from "../public/profile.jpg";
 
 export default function App() {
 
   return (
     <div className="w-full animated-background h-full bg-gradient-to-b from-green-200 via-green-200 to-blue-200">
       <Navigation />
-      <section id="home" className="flex flex-col pt-10 w-full">
-        <div className="flex items-center justify-center p-20">
+      <section id="home" className="flex flex-row justify-center pt-10 w-full">
+        <div className="flex items-center justify-evenly p-20">
           <div className="space-y-4">
             <h1 className="text-4xl font-bold">Hello there,</h1>
             <h2 className="text-5xl">My name is <span className="text-teal-600 font-bold ">Senne Cumptich</span>
@@ -32,12 +29,10 @@ export default function App() {
                 />
               </span>
             </h3>
-            <button className="bg-white bg-opacity-85 backdrop-blur-sm p-3 rounded-xl text-teal-700" onClick={ScrollAboutMe}>
-              <p>
-                More about me
-              </p>
-            </button>
           </div>
+        </div>
+        <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat rounded-full shadow-xl">
+          <img src={profile} alt="profile" className="rounded-full max-w-xs transition duration-300 ease-in-out hover:scale-110" />
         </div>
       </section>
       <section id="about-me" className="flex flex-col pt-10 w-full">
