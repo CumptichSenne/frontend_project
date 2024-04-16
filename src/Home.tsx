@@ -4,6 +4,7 @@ import Navigation from "./components/Navigation";
 import { TypeAnimation } from "react-type-animation";
 
 import profile from "../public/profile.jpg";
+import { Github, LinkedinIcon, Mail } from "lucide-react";
 
 export default function App() {
 
@@ -21,7 +22,7 @@ export default function App() {
                 <TypeAnimation
                   sequence={[
                     "web developer in the making", 1500,
-                    "student at Howest", 1500,
+                    "student at Howest Kortrijk", 1500,
                     "competitive volleyball player", 1500,
                   ]}
                   cursor={true}
@@ -50,9 +51,20 @@ export default function App() {
         </div>
       </section>
       <section id="contact" className="flex flex-col pt-10 w-full">
-        <div className="flex items-center justify-center p-20">
+        <div className="flex flex-col gap-10 items-center justify-center p-20">
           <div className="space-y-4">
             <h1 className="text-4xl font-bold">Contact</h1>
+          </div>
+          <div className=" w-2/3 flex flex-row justify-evenly">
+            <div className="p-6 bg-white rounded-2xl text-teal-700 transition duration-300 ease-in-out hover:scale-125 shadow-xl">
+              <Mail size={36} strokeWidth={3}/>
+            </div>
+            <div className="p-6 bg-white rounded-2xl text-teal-700  transition duration-300 ease-in-out hover:scale-125 shadow-xl">
+              <LinkedinIcon size={36} strokeWidth={2.5}/>
+            </div>
+            <div className="p-6 bg-white rounded-2xl text-teal-700  transition duration-300 ease-in-out hover:scale-125 shadow-xl">
+              <Github size={36} strokeWidth={3}/>
+            </div>
           </div>
         </div>
       </section>
