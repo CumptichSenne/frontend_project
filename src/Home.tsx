@@ -5,6 +5,7 @@ import { TypeAnimation } from "react-type-animation";
 
 import profile from "../public/profile.jpg";
 import { Github, LinkedinIcon, Mail } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function App() {
 
@@ -51,20 +52,22 @@ export default function App() {
         </div>
       </section>
       <section id="contact" className="flex flex-col pt-10 w-full">
-        <div className="flex flex-col gap-10 items-center justify-center p-20">
+        <div className="flex flex-col gap-8 items-center justify-center p-20">
           <div className="space-y-4">
             <h1 className="text-4xl font-bold">Contact</h1>
           </div>
+          <p className="text-xl font-bold text-center">If you would like to get in touch with me be sure to visit <br/> my LinkedIn or Github page or send me an email.</p>
           <div className=" w-2/3 flex flex-row justify-evenly">
-            <div className="p-6 bg-white rounded-2xl text-teal-700 transition duration-300 ease-in-out hover:scale-125 shadow-xl">
+            <Link to='#' onClick={() => window.location.href = 'mailto:yourmail@domain.com'}
+              className="p-6 bg-white rounded-2xl text-teal-700 transition duration-300 ease-in-out hover:scale-125 shadow-xl">
               <Mail size={36} strokeWidth={3}/>
-            </div>
-            <div className="p-6 bg-white rounded-2xl text-teal-700  transition duration-300 ease-in-out hover:scale-125 shadow-xl">
+            </Link>
+            <Link to="https://www.linkedin.com/in/senne-cumptich-a7b592273/" target="/blank" className="p-6 bg-white rounded-2xl text-teal-700  transition duration-300 ease-in-out hover:scale-125 shadow-xl">
               <LinkedinIcon size={36} strokeWidth={2.5}/>
-            </div>
-            <div className="p-6 bg-white rounded-2xl text-teal-700  transition duration-300 ease-in-out hover:scale-125 shadow-xl">
+            </Link>
+            <Link to="https://github.com/CumptichSenne" target="/blank" className="p-6 bg-white rounded-2xl text-teal-700  transition duration-300 ease-in-out hover:scale-125 shadow-xl">
               <Github size={36} strokeWidth={3}/>
-            </div>
+            </Link>
           </div>
         </div>
       </section>
