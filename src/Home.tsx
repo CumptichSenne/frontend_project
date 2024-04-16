@@ -6,6 +6,7 @@ import { TypeAnimation } from "react-type-animation";
 import profile from "../public/profile.jpg";
 import { Github, LinkedinIcon, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
+import { CarouselDefault } from "./components/Carousel";
 
 export default function App() {
 
@@ -45,10 +46,11 @@ export default function App() {
         </div>
       </section>
       <section id="project" className="flex flex-col pt-10 w-full">
-        <div className="flex items-center justify-center p-20">
+        <div className="flex flex-col gap-8 p-20 items-center justify-center">
           <div className="space-y-4">
-            <h1 className="text-4xl font-bold">Projects</h1>
+            <h1 className="text-4xl font-bold text-center">Projects</h1>
           </div>
+          <CarouselDefault />
         </div>
       </section>
       <section id="contact" className="flex flex-col pt-10 w-full">
