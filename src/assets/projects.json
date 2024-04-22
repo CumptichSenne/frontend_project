@@ -3,24 +3,28 @@
         "id": 1,
         "name": "The MCU list",
         "description": "The MCU List is a website that contains all the movies from the Marvel Cinematic Universe. Per movie you can find the release date, the director and how much money that specific movie made. The website is made with HTML and CSS and is fully responsive. For the data I used an open API from Github and with the help of Javascript I made it possible to display the data on the website.",
-        "image": "images/mculist.JPG"
+        "image": "images/mculist.png",
+        "technologies": "HTML, CSS, Javascript, API"
     },
     {
         "id": 2,
         "name": "Smart pool",
         "description": "Smart Pool is a project which can be used to get all kinds of information about the water in your pool. You can get the temperature of the water, how clean your water is and the PH value. This project was made with the help of a lot of different programming languages. The website is made with HTML, CSS and Javascript. The sensors are connected to a Raspberry Pi which is connected to a MySQL database. For the data visualization I used Python.",
-        "image": "images/projectone.jpg"
+        "image": "images/projectone.jpg",
+        "technologies": "HTML, CSS, Javascript, Python, MySQL, Raspberry Pi"
     },
     {
         "id": 3,
         "name": "Catch the fish",
         "description": "This is my most recent project that I made for school where you can play up to 3 different games. The user can choose between Red vs Blue, Simon says and Zen. During the chosen game the player has to push buttons that are lit up with LED's. This was a team project where I was responsible for the programming and design of the website. The website was build with HTML, CSS and Javascript. To make the actual game we used C and C#. The data from the game is stored in a MySQL database.",
-        "image": "images/teamproject.jpg"
+        "image": "images/teamproject.jpg",
+        "technologies": "HTML, CSS, Javascript, C, C#, MySQL"
     },
     {
         "id": 4,
         "name": "One piece card game",
-        "description": "This is a project that i'm still working on. The idea is to give the user a list with all the different cards from the One Piece card game. This project is made with Typescript, Tailwind CSS and React. The data comes from a local JSON file. The user can filter the cards by rarity or set and can also search for a specific card",
-        "image": "images/onepiece.png"
+        "description": "This is a project that i'm still working on. The idea is to give the user a list with all the different cards from the One Piece card game. This project is made with Typescript, Tailwind CSS and React and the data comes from a local JSON file. The user can filter the cards by rarity or set and can also search for a specific card",
+        "image": "images/onepiece.png",
+        "technologies": "Typescript, Tailwind CSS, React"
     }
 ]
