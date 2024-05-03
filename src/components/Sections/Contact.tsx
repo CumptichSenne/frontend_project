@@ -1,10 +1,10 @@
 import { Mail, LinkedinIcon, Github } from "lucide-react"
 import { Link } from "react-router-dom"
-import ContactItem from "../components/ContactItem"
+import ContactItem from "../ContactItem"
 
 const Contact = () => {
     return (
-        <section id="contact" className="flex flex-col pt-10 w-full">
+        <section id="contact" className="flex flex-col w-full h-full">
         <div className="flex flex-col gap-8 items-center justify-center p-20">
           <div className="space-y-4">
             <h1 className="text-4xl font-bold">Contact</h1>
