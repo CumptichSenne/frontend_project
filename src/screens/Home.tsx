@@ -13,7 +13,7 @@ export default function App() {
   return (
     <div id="home" className="w-full animated-background h-full bg-gradient-to-b from-green-200 via-green-200 to-blue-200">
       <Navigation />
-      <section className="flex flex-row justify-center pt-10 w-full h-screen">
+      <section className="flex flex-col lg:flex-row items-center justify-center lg:pt-10 pt-60 w-full h-screen pb-36 lg:pb-0">
         <div className="flex items-center justify-evenly p-20">
           <div className="space-y-4">
             <h1 className="text-4xl font-bold">Hello there,</h1>
@@ -34,8 +34,8 @@ export default function App() {
             </h3>
           </div>
         </div>
-        <div className="relative max-w-xs overflow-hidden bg-cover bg-no-repeat rounded-full shadow-xl h-2/3">
-          <img src={profile} alt="profile" className="rounded-full max-w-xs transition duration-300 ease-in-out hover:scale-110" />
+        <div className="lg:relative max-w-xs lg:overflow-hidden lg:bg-cover lg:bg-no-repeat lg:rounded-full lg:shadow-xl lg:h-2/3 h-5/6">
+          <img src={profile} alt="profile" className="rounded-full max-w-xs lg:transition lg:duration-300 lg:ease-in-out lg:hover:scale-110 h-full" />
         </div>
       </section>
       <AboutMe />

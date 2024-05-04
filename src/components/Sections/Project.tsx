@@ -21,16 +21,16 @@ const Project = () => {
     };
 
     return (
-        <section id="project" className="flex flex-col w-full h-full">
-        <div className="flex flex-col gap-8 p-20 items-center justify-center">
-            <div className="space-y-4">
-                <h1 className="text-4xl font-bold text-center">Projects</h1>
+        <section id="project" className="flex flex-col w-full h-full lg:pt-0 pt-60">
+            <div className="flex flex-col gap-8 p-20 items-center justify-center">
+                <div className="space-y-4">
+                    <h1 className="text-4xl font-bold text-center">Projects</h1>
+                </div>
+                <div className="flex flex-col items-center justify-center gap-16">
+                    {ConvertProjects()}
+                </div>
             </div>
-            <div className="flex flex-col items-center justify-center gap-16">
-                {ConvertProjects()}
-            </div>
-        </div>
-      </section>
+        </section>
     );
 }
 
