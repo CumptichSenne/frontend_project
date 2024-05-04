@@ -1,0 +1,4 @@
+[[redirects]]
+    from = "/tr"
+    to = "/"
+    status = 200
