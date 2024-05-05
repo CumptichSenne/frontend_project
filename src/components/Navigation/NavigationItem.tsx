@@ -14,7 +14,7 @@ const NavigationItem = ({ title, icon, scroll }: { title: string, icon: ReactNod
     return (
         <Link className="p-3 flex flex-row gap-2 hover:bg-white hover:rounded-2xl hover:text-teal-700 hover:bg-opacity-90" onClick={ScrollTo} to={`/#${scroll}`}>
             {icon}
-            {title}
+            <div className="hidden md:block">{title}</div>
         </Link>
     );
 };

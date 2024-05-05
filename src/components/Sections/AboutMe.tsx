@@ -2,7 +2,7 @@ import About from "../../../public/images/aboutme.jpg";
 
 const AboutMe = () => {
   return (
-    <section id="about-me" className="lg:pt-20 pt-80 w-full h-screen lg:pb-0 mb-60">
+    <section id="about-me" className="pt-20 w-full h-screen lg:pb-0 mb-32">
         <div className="flex flex-col items-center justify-center gap-10">
           <div className="space-y-4">
             <h1 className="text-4xl font-bold">About me</h1>

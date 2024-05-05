@@ -4,7 +4,7 @@ import ContactItem from "../ContactItem"
 
 const Contact = () => {
     return (
-        <section id="contact" className="flex flex-col w-full h-full lg:pt-0 pt-64">
+        <section id="contact" className="flex flex-col w-full h-full">
         <div className="flex flex-col gap-8 items-center justify-center p-20">
           <div className="space-y-4">
             <h1 className="text-4xl font-bold">Contact</h1>

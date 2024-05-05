@@ -11,9 +11,9 @@ import AboutMe from "../components/Sections/AboutMe";
 export default function App() {
 
   return (
-    <div id="home" className="w-full animated-background h-full bg-gradient-to-b from-green-200 via-teal-200 to-blue-200">
+    <div id="home" className="w-full animated-background h-full bg-gradient-to-b from-green-200 via-teal-200 to-blue-200 flex flex-col lg:gap-0 gap-32">
       <Navigation />
-      <section className="flex flex-col lg:flex-row items-center justify-center lg:pt-10 pt-28 w-full h-screen pb-36 lg:pb-0">
+      <section className="flex flex-col lg:flex-row items-center justify-center lg:pt-10 w-full h-screen">
         <div className="flex items-center justify-evenly p-20">
           <div className="space-y-4">
             <h1 className="lg:text-4xl text-2xl font-bold">Hello there,</h1>
