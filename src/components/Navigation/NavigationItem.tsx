@@ -5,7 +5,10 @@ const NavigationItem = ({ title, icon, scroll }: { title: string, icon: ReactNod
 
     function ScrollTo() {
         const item = document.getElementById(scroll);
-        item?.scrollIntoView({ behavior: "smooth" });
+        window.scrollTo({
+            top: item?.offsetTop || 0,
+            behavior: "smooth"
+        });
     }
 
     return (
