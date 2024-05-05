@@ -19,8 +19,8 @@
     },
     {
         "id": 4,
-        "name": "One piece card game",
-        "description": "This is a project that i'm still working on. The idea is to give the user a list with all the different cards from the One Piece card game. This project is made with Typescript, Tailwind CSS and React and the data comes from a local JSON file. The user can filter the cards by rarity or set and can also search for a specific card",
-        "image": "images/onepiece.png"
+        "name": "To do list",
+        "description": "This is a simple to do list that I made with the help of React and Tailwind. The user can add tasks to the list and remove them when they are done. The tasks are stored in the local storage of the browser so the tasks will still be there when the user comes back to the website. The website is fully responsive and has a nice design.",
+        "image": "images/todo.png"
     }
 ]
